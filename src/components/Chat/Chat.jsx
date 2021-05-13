@@ -135,12 +135,12 @@ const Chat = ({
     customButtonStyle.backgroundColor = customStyles.chatButton.backgroundColor;
   }
 
-  let header = `Conversation with ${botName}`;
+  let header = `${botName}`;
   if (headerText) {
     header = headerText;
   }
 
-  let placeholder = "Write your message here";
+  let placeholder = "입력";
   if (placeholderText) {
     placeholder = placeholderText;
   }
