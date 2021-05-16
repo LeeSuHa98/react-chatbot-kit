@@ -1,5 +1,4 @@
 import React from "react";
-import image from './home_img.png'
 
 const ChatbotMessageAvatar = () => {
   return (
