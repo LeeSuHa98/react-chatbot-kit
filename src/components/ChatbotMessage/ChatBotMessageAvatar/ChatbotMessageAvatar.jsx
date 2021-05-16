@@ -5,7 +5,9 @@ const ChatbotMessageAvatar = () => {
   return (
     <div className="react-chatbot-kit-chat-bot-avatar">
       <div className="react-chatbot-kit-chat-bot-avatar-container">
-          <img alt="chatbot-img" src={image}/>
+      </div>
+      <div>
+        <p className="react-chatbot-kit-chat-bot-avatar-letter">행복 알리미</p>
       </div>
     </div>
   );
