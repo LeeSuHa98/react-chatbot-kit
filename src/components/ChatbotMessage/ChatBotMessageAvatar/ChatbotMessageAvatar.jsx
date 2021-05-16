@@ -6,7 +6,7 @@ const ChatbotMessageAvatar = () => {
     <div className="react-chatbot-kit-chat-bot-avatar">
       <div className="react-chatbot-kit-chat-bot-avatar-container">
         <div className="react-chatbot-kit-chat-bot-avatar-container">
-          <img src={image}/>
+          <img alt="chatbot-img" src={image} className="react-chatbot-kit-chat-bot-avator-img"/>
         </div>
       </div>
     </div>
